@@ -287,3 +287,11 @@ PlayersHouse_2F_Text_ItsAGameCube:
 	.string "It's a Nintendo GameCube.\p"
 	.string "A Game Boy Advance is connected to\n"
 	.string "serve as the Controller.$"
+
+PlayersHouse_2F_EventScript_TestSign::
+    msgbox PlayersHouse_2F_Text_TestSign, MSGBOX_SIGN
+    end
+
+PlayersHouse_2F_Text_TestSign:
+    .string "Benvenuto! Questo è il mio primo\n"
+    .string "cartello personalizzato!$"
